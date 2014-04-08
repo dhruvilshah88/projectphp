@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+                <meta name="author" content="dhruvil" />
+                <link rel="stylesheet" href="css/registernlogin.css" type="text/css"/>
+	</head>
+
+	<body>
+		<div id="regis">
+		<header>
+		<div id="ima">
+		<p><a href="#login">OR</a></p>
+		</div>
+		</header>
+		<div id="contentreg">
+                    <form method="post" action="magic/regisquery.php">
+			<p><input type="text" name="name" id="name" placeholder="Uname"/></p>
+			<p><input type="text" name="lname" id="lname" placeholder="Last Name"/></p>
+			<p><input type="password" name="regpass" id="regpass" placeholder="Password"/></p>
+			<p><input type="password" name="repass" id="repass" placeholder="Re type Password"/></p>
+			<p><input type="email" name="email" id="regemail" placeholder="Email"/></p>
+			<p><input type="submit" name="submit" id="submit" value="Submit"/></p>
+			</form>
+			</div>
+			<div id="login">
+			<header><div id="ima1">
+			<p><a href="#regis">OR</a></p>
+			</div></header>
+			<form method="post" action="magic/autho.php">
+			<p><input type="text" name="email" id="email" placeholder="Uname"/></p>
+			<p><input type="password" name="pass" id="pass" placeholder="Password"/></p>
+			<p><input type="submit" name="submit" id="submit" value="Submit"/></p>
+			</form>
+			</div>
+				<footer>
+				<p>
+					&copy; Copyright  by Dhruvil
+				</p>
+			</footer>
+			</div>
+			
+			
+		
+	</body>
+</html>
