@@ -1,0 +1,53 @@
+/* 
+    Created on : Mar 28, 2014, 12:46:02 PM
+    Author     : Dhruvil Shah
+*/
+html,body{
+    width: 100%;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+#item{
+    display: block;
+    width:300px;
+    float:left;
+}
+ul li{
+    display: inline-block;
+    width:270px;
+    margin-top: 75px;
+    margin-right: 30px;
+    background: #e2dd9f;
+    box-shadow: 1px 1px 7px #a59b1e;
+}
+ul li input{
+    position: relative;
+    float: right;
+}
+#total{
+    width:15%;
+    line-height: 30px;
+    margin-top:20px;
+    display: inline-block;
+    float:right;
+    margin-left:20px;
+    margin-top:160px;
+    background-color:#f9f9da;
+    margin-right:20px;
+}
+#total button{
+    margin-left:20px;
+}
+#something{
+   margin:0 auto;
+   display :block;
+}
+#total img{
+    display: block;
+    width:100%;
+}
+ul{
+    max-width:76%;
+    display:inline-block;
+}

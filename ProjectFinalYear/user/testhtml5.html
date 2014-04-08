@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #rotate img:hover{
+              
+                -moz-transform: rotate(360deg);
+               
+            }
+            #rotate img{
+                transition: transform,-moz-transform 1s,-webkit-transform 1s ease 0.5s;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rotate"><img src="img/squared_metal.png"></div>
+    </body>
+</html>

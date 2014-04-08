@@ -1,0 +1,279 @@
+html,body {
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:10px 10px;;
+	text-align: center;
+	border:none;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow:hidden;
+        padding: 10px 0;
+        background-color: #999999;
+       
+}
+
+#ima{
+	display: block;
+	height:200px;
+	width:300px;
+	background: url("../img/regimgnew.png");
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0 auto;
+	z-index: 9999;
+	transition: background-position 0.75s ;
+        -moz-transition: background-position 0.75s ;
+	-webkit-transition: background-position 0.75s;
+}
+#ima p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	position:absolute;
+	left:70%;
+	top:20%;
+	display: block;
+	width:150px;
+	height:100px;
+	background: url("../img/loginbit.png");
+	
+}
+#ima p a{
+	display: block;
+	margin-top:3px;
+	width:150px;
+	height:100px;
+	text-decoration: none;
+	color:#4E4E4E;
+}
+#regis{
+	height: 100%;
+	width:80%;
+	margin:0 auto;
+        background: linear-gradient(top,rgb(61, 30, 52) 0%,#34a4ff 100%);
+	background: -moz-linear-gradient(top,rgb(61, 30, 52) 0%,#300a24 100%);
+	background: -webkit-linear-gradient(top,#1f5df4 0%,#34a4ff 100%);
+        background: url("../img/back.png");
+	color:black;
+	font-family: Tahoma;
+	font-size: 19px;
+	border-radius: 30px;
+        transition:top 0.7s ,left 0.7s;
+        z-index:999999;
+        margin:10px auto;
+        padding-top :20px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+	
+	-webkit-box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+#contentreg{
+	margin:20px auto;
+	display: block;
+	height: 75%;
+	width:50%;
+	background-color: white;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	border-radius: 15px;
+	z-index: 99;
+        padding: 10px 10px;
+         box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+        -moz-box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+	
+	-webkit-box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+}
+#contentreg input{
+	border:none;
+	margin:0px 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+        -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+        -moz-transition: box-shadow 0.5s ease 0.2s;
+	transition: box-shadow 0.5s ease 0.2s;
+	-webkit-transition: box-shadow 0.5s ease 0.2s;
+	text-shadow: 1px 1px 1px #999999;
+        -moz-text-shadow: 1px 1px 1px #999999;
+	-webkit-text-shadow: 1px 1px 1px #999999;
+        width:68%;
+}
+#contentreg input:focus{
+	border:none;
+        -moz-box-shadow: 0px 1px 10px #419bc2;
+	box-shadow: 0px 1px 10px #419bc2;
+	-webkit-box-shadow: 0px 1px 10px #419bc2;
+}
+#regis header{
+	display:block;
+	width:70%;
+	height:35%;
+        
+        background: linear-gradient(top,rgba(109, 95, 217, 0.42) 0%,rgba(0, 5, 230, 0.46) 100%);
+	background: -moz-linear-gradient(top,#462035 0%,#570734 100%);
+	background: -webkit-linear-gradient(top,#4631ee 0%,#3033b8 100%);
+	border-radius: 15px;
+	margin:0 auto;
+        background-color: #462035;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+        margin :10px auto;
+        padding: 10px 0;
+        box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+        -moz-box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+	
+	-webkit-box-shadow: 0px 1px 10px rgba(255,255,255,0.4);
+}
+#contentreg input#submit{
+	display: block;
+	height:40px;
+	width:250px;
+	background-color:green;
+	background: url("../img/bu.png");
+	background-position:-4px -4px;
+	margin:0 auto;
+        -moz-transition: background-position 0.75s;
+	transition: background-position 0.75s;
+	-webkit-transition: background-position 0.75s;
+}
+#contentreg input#submit:hover{
+	background-repeat:no-repeat;
+	background-position:0px -38px;
+}
+#login{
+	display: block;
+	height:100%;
+	width:85%;
+        background:linear-gradient(top,#1f5df4 0%,#34a4ff 100%);
+	background:-moz-linear-gradient(top,#1f5df4 0%,#34a4ff 100%);
+	background: -webkit-linear-gradient(top,#1f5df4 0%,#34a4ff 100%);
+	margin:0 auto;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	position: absolute;
+	top:120%;
+	left:0%;
+    transition:top 0.7s ease 0.2s ,left 0.7s;
+    
+}
+
+#login input{
+	border:none;
+	margin:0px 30px;
+    margin-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+        -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	transition: box-shadow 0.5s ease 0.2s;
+        -moz-transition: box-shadow 0.5s ease 0.2s;
+	color:black;
+	-webkit-transition: box-shadow 0.5s ease 0.2s;
+	text-shadow: 2px 2px 1px #999999;
+        -moz-text-shadow: 2px 2px 1px #999999;
+	-webkit-text-shadow: 2px 2px 1px #999999;
+}
+#login input:focus{
+	border:none;
+	box-shadow: 0px 1px 10px #419bc2;
+        -moz-box-shadow: 0px 1px 10px #419bc2;
+	-webkit-box-shadow: 0px 1px 10px #419bc2;
+}
+#login input#submit{
+	display: block;
+	height:40px;
+	width:250px;
+	background-color:green;
+	background: url("../img/bu.png");
+	background-position:-4px -4px;
+	margin:0 auto;
+	transition: background-position 0.75s;
+        -moz-transition: background-position 0.75s;
+	-webkit-transition: background-position 0.75s;
+	
+}
+#login input#submit:hover{
+	background-repeat:no-repeat;
+	background-position:0px -38px;
+}
+
+#ima1{
+	display: block;
+	height:200px;
+	width:300px;
+	background: url("../img/regimg.png");
+	background-position: 0 -200px;
+	background-repeat:no-repeat;
+	padding:0;
+	margin:0 auto;
+	z-index: 9999;
+        -moz-transition: background-position 0.5s ease 0.2s;
+	transition: background-position 0.5s ease 0.2s;
+	-webkit-transition: background-position 0.5s ease 0.2s;
+}
+
+#login header{
+	display:block;
+	width:80%;
+	height:35%;
+	background: -moz-linear-gradient(top,#4631ee 0%,#3033b8 100%);
+        background: linear-gradient(top,#4631ee 0%,#3033b8 100%);
+	background: -webkit-linear-gradient(top,#4631ee 0%,#3033b8 100%);
+	border-radius: 15px;
+	margin:0 auto;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+
+#login:target{
+	position: absolute;
+	top:30%;
+	left:10%;
+	margin:30px auto;
+}
+#regis:target{
+ 
+}
+    
+#ima1 p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	position:absolute;
+	left:70%;
+	top:20%;
+	display: block;
+	width:150px;
+	height:100px;
+	background: url("../img/regbit.png");
+	
+}
+#ima1 p a{
+	display: block;
+	margin-top:3px;
+	width:150px;
+	height:100px;
+	text-decoration: none;
+	color:#4E4E4E;
+}
+#login form{
+	background-color: white;
+	display: block;
+	width:75%;
+	height:50%;
+	border-radius: 20px;
+        -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	margin: 0 auto;
+   
+}
